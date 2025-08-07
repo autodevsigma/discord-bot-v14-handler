@@ -59,6 +59,6 @@ client.translate(interaction, embedColor, 'Any Text to translate in any language
 
 ------
 
-> This Template is free to use, if you need support join my [Discord](https://sigmaxii.com/support) and feel free to tag me! 
+> This Template is free to use, if you need support join my [Discord](https://autodev.com/support) and feel free to tag me! 
 
-> No credits required to use this template, the only thing you could do to help me out is to invite my bot in your server ;) [Invite Sigma Bot](https://sigmaxii.com/invite)
+> No credits required to use this template, the only thing you could do to help me out is to invite my bot in your server ;) [Invite Sigma Bot](https://autodev.com/invite)
