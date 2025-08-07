@@ -166,12 +166,12 @@ module.exports = {
           return interaction.reply({
             content:
               "**I Do Not Have The Required Permissions! - [MANAGE_GUILD]**",
-            ephemeral: true,
+            flags: 64,
           });
         if (!interaction.member.permissions.has("MANAGE_GUILD"))
           return interaction.reply({
             content: "***You don't have the permission to do that!***",
-            ephemeral: true,
+            flags: 64,
           });
 
         if (color.length > 7) {
@@ -188,7 +188,7 @@ module.exports = {
           if (color === b) {
             return interaction.reply({
               content: `**Embed color is already set set as: ${color}!**`,
-              ephemeral: true,
+              flags: 64,
             });
           } else {
             client.db.set(`embedcolor_${interaction.guild.id}`, color);
@@ -201,7 +201,7 @@ module.exports = {
                     `***Embed color ha been set succesfully to ${color}!***`
                   ),
               ],
-              ephemeral: true,
+              flags: 64,
             });
           }
         } catch (e) {

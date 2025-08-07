@@ -6,7 +6,7 @@ module.exports = {
     ,
     async execute(interaction, client) {
 
-     interaction.reply({content: `Pong 🏓`,  ephemeral: true})
+     interaction.reply({content: `Pong 🏓`,  flags: 64})
 await client.modLog(
   interaction,
   `Command executed by ${interaction.user} \n Reason: No reason at all its just ping to show you how mod logs will work.`,
@@ -32,7 +32,7 @@ await client.modLog(
 
 /**
  * 
- * This template is made by autodev
+ * This template is made by autodevsigma
  * Free to use without credits
  * Just add sigma bot in your server and we're cool 
  * 

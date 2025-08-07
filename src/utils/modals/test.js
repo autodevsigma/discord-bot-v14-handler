@@ -7,7 +7,7 @@ module.exports = {
     interaction
       .reply({
         content: `Your wrote: \n> \`${response}\``,
-        ephemeral: true,
+        flags: 64,
       })
       .then(() => {
         client.modLog(

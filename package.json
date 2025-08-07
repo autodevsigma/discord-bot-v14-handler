@@ -2,7 +2,7 @@
   "name": "Sigma bot",
   "version": "14.11.0",
   "description": "Sigma bot",
-    "scripts": {
+  "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
@@ -14,7 +14,7 @@
     "date-fns": "^2.30.0",
     "discord-api-types": "^0.37.43",
     "discord-player": "^6.3.1",
-    "discord.js": "^14.11.0",
+    "discord.js": "^14.21.0",
     "express": "^4.18.2",
     "fs": "^0.0.2",
     "google-translate": "^3.0.0",
